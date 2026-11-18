@@ -290,8 +290,6 @@ December 05, 2025
 V1.3
 API usage method
 
-![SK7 Android API Reference (`smdt.jar`) - sk7-image1.jpeg](./images/sk7-image1.jpeg)
-
 Get object instance method
 
 **Function name**: `public static SmdtManagerNew getInstance(Context context)`
@@ -325,11 +323,7 @@ Copy smdt.ar to the project directory \ app \ libs \;
 
 2.Right click on the jar file in the libs folder and select add as Library;
 
-![SK7 Android API Reference (`smdt.jar`) - sk7-image3.png](./images/sk7-image3.png)
-
 3.Then call the method after the instance object in the code.
-
-![SK7 Android API Reference (`smdt.jar`) - sk7-image3.png](./images/sk7-image3.png)
 
 ### 1.4 API naming rules
 
