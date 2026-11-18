@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_title">
+        <item>Sobre</item>
+        <item>Información del equipo</item>
+        <item>Gestión de la pantalla</item>
+        <item>Gestión de la red</item>
+        <item>Control del sistema</item>
+        <item>Control de hardware</item>
+        <item>Sistema de clientes de la industria</item>
+        <item>Otros</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>Pequeño</item>
+        <item>Predeterminado</item>
+        <item>Grande</item>
+        <item>Máximo</item>
+    </string-array>
+    <string-array name="relay_array">
+        <item>Modo de cierre no automático</item>
+        <item>Modo de cierre automático (alto efectivo - bajo nivel predeterminado)</item>
+        <item>Modo de cierre automático (bajo válido - Alto predeterminado)</item>
+    </string-array>
+</resources>

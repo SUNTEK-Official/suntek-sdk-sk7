@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_title">
+        <item>О</item>
+        <item>Информация об устройстве</item>
+        <item>Управление отображением</item>
+        <item>Управление сетью</item>
+        <item>Система управления</item>
+        <item>Аппаратное управление</item>
+        <item>Пользователь</item>
+        <item>Другой</item>
+    </string-array>
+    <string-array name="entries_font_size">
+        <item>"Маленький"</item>
+        <item>"По умолчанию"</item>
+        <item>"Большой"</item>
+        <item>"Максимальный"</item>
+    </string-array>
+    <string-array name="relay_array">
+        <item>Нет режима автоматического закрывания</item>
+        <item>Режим автоматического закрытия (высокоэффективный-низкий уровень по умолчанию)</item>
+        <item>Режим автоматического закрытия (низкий уровень действия — высокий уровень по умолчанию)）</item>
+    </string-array>
+</resources>
