@@ -290,9 +290,11 @@ December 05, 2025
 V1.3
 API usage method
 
+![SK7 Android API Reference (`smdt.jar`) - sk7-image1.jpeg](./images/sk7-image1.jpeg)
+
 Get object instance method
 
-Function name : public static SmdtManagerNew getInstance(Context context)
+**Function name**: `public static SmdtManagerNew getInstance(Context context)`
 
 Description : get SmdtManagerNew A single instance of an object
 
@@ -319,9 +321,15 @@ example
 
 Copy smdt.ar to the project directory \ app \ libs \;
 
+![SK7 Android API Reference (`smdt.jar`) - sk7-image2.png](./images/sk7-image2.png)
+
 2.Right click on the jar file in the libs folder and select add as Library;
 
+![SK7 Android API Reference (`smdt.jar`) - sk7-image3.png](./images/sk7-image3.png)
+
 3.Then call the method after the instance object in the code.
+
+![SK7 Android API Reference (`smdt.jar`) - sk7-image3.png](./images/sk7-image3.png)
 
 ### 1.4 API naming rules
 
@@ -379,7 +387,7 @@ The API consists of three parts: name, verb, and minute. The name should match t
 
 #### 2.1.1, info_getApiVersion
 
-Function name : public String info_getApiVersion()
+**Function name**: `public String info_getApiVersion()`
 
 Description : Get current API version number
 
@@ -402,7 +410,7 @@ null
 
 #### 2.1.2, info_getAndroidVersion
 
-Function name : public String info_getAndroidVersion()
+**Function name**: `public String info_getAndroidVersion()`
 
 Description : get Android system version
 
@@ -416,7 +424,7 @@ return parameter Instructions
 
 #### 2.1.3, info_getSoftwareVersion
 
-Function name : public String info_getSoftwareVersion()
+**Function name**: `public String info_getSoftwareVersion()`
 
 Description : Getdevice software version number
 
@@ -430,7 +438,7 @@ return parameter Instructions
 
 #### 2.1.4, info_getHardwareVersion
 
-Function name : public String info_getHardwareVersion()
+**Function name**: `public String info_getHardwareVersion()`
 
 Description : Get device hardware version parameter : null
 
@@ -442,7 +450,7 @@ return parameter Instructions
 
 #### 2.1.5, info_getKernelVersion
 
-Function name : public String info_getKernelVersion()
+**Function name**: `public String info_getKernelVersion()`
 
 Description : getdevice kernel version
 
@@ -456,7 +464,7 @@ return parameter Instructions
 
 #### 2.1.6, info_getMCUVersion
 
-Function name : public String info_getMCUVersion()
+**Function name**: `public String info_getMCUVersion()`
 
 Description : get MCU version number
 
@@ -470,7 +478,7 @@ return parameter Instructions
 
 #### 2.1.7, info_getSecurityVersion
 
-Function name : public String info_getSecurityVersion()
+**Function name**: `public String info_getSecurityVersion()`
 
 Description : Get Android security patch level
 
@@ -484,7 +492,7 @@ return parameter Instructions
 
 #### 2.1.8, info_getNPUVersion
 
-Function name : public String info_getNPUVersion()
+**Function name**: `public String info_getNPUVersion()`
 
 Description : Get NPU driver version number
 
@@ -500,7 +508,7 @@ return parameter Instructions
 
 #### 2.1.9, info_getWebViewVersion
 
-Function name : public String info_getWebViewVersion()
+**Function name**: `public String info_getWebViewVersion()`
 
 Description : get WebView version
 
@@ -518,7 +526,7 @@ return parameter Instructions
 
 #### 2.2.1, info_getTotalMemory
 
-Function name : public String info_getTotalMemory()
+**Function name**: `public String info_getTotalMemory()`
 
 Description : getdevice Total memory capacity
 
@@ -540,7 +548,7 @@ Remaining 1GB or more, return GB
 
 #### 2.2.2, info_getAvailMemory
 
-Function name : public String info_getAvailMemory()
+**Function name**: `public String info_getAvailMemory()`
 
 Description : Getdevice remaining can use memory capacity
 
@@ -566,7 +574,7 @@ Below 1M, return KB for 1KB or more
 
 #### 2.2.3, info_getTotalStorage
 
-Function name : public String info_getTotalStorage()
+**Function name**: `public String info_getTotalStorage()`
 
 Description : getdevice total storage capacity
 
@@ -584,7 +592,7 @@ return size unit: GB
 
 #### 2.2.4, info_getAvailStorage
 
-Function name : public String info_getAvailStorage()
+**Function name**: `public String info_getAvailStorage()`
 
 Description : Getdevice remaining can use storage capacity
 
@@ -610,7 +618,7 @@ Below 1M, return KB for 1KB or more
 
 #### 2.2.5, info_getAppUsedMemory
 
-Function name : public String info_getAppUsedMemory()
+**Function name**: `public String info_getAppUsedMemory()`
 
 Description : Memory occupied by getAPP
 
@@ -630,7 +638,7 @@ notes
 
 #### 2.3.1, info_getBoardType
 
-Function name : public String info_getBoardType()
+**Function name**: `public String info_getBoardType()`
 
 Description : get Board Model
 
@@ -644,7 +652,7 @@ return parameter Instructions
 
 #### 2.3.2, info_getModel
 
-Function name : public String info_getModel()
+**Function name**: `public String info_getModel()`
 
 Description : getdevice model
 
@@ -658,7 +666,7 @@ return parameter Instructions
 
 #### 2.3.3, info_getFactoryCompany
 
-Function name : public String info_getFactoryCompany()
+**Function name**: `public String info_getFactoryCompany()`
 
 Description : getdevice manufacturer
 
@@ -674,7 +682,7 @@ return parameter Instructions
 
 #### 2.4.1, info_getSerialNumber
 
-Function name : public String info_getSerialNumber()
+**Function name**: `public String info_getSerialNumber()`
 
 Description : get serial number
 
@@ -690,7 +698,7 @@ return parameter Instructions
 
 #### 2.5.1, info_getCpuTemperature
 
-Function name : public String info_getCpuTemperature()
+**Function name**: `public String info_getCpuTemperature()`
 
 Description : get device CPU temperature
 
@@ -708,7 +716,7 @@ notes
 
 #### 2.5.2, info_getCpuFrequency
 
-Function name : public String info_getCpuFrequency()
+**Function name**: `public String info_getCpuFrequency()`
 
 Description : getdevice CPU frequency
 
@@ -726,7 +734,7 @@ notes
 
 #### 2.5.3, info_getCpuUsage
 
-Function name : public String info_getCpuUsage()
+**Function name**: `public String info_getCpuUsage()`
 
 Description : getdevice CPU utilization rate
 
@@ -746,7 +754,7 @@ Unit %
 
 #### 2.6.1, info_getFaceDetectSupport
 
-Function name : public int info_getFaceDetectSupport()
+**Function name**: `public int info_getFaceDetectSupport()`
 
 Description : Do you support facial recognition
 
@@ -762,7 +770,7 @@ return parameter Instructions
 
 #### 2.7.1, info_getDeviceTemperature
 
-Function name : public float info_getDeviceTemperature()
+**Function name**: `public float info_getDeviceTemperature()`
 
 Description : Ge tdevice temperature
 
@@ -786,7 +794,7 @@ notes
 
 #### 3.1.1, disp_setDispParams
 
-Function name : public int disp_setDispParams(String params)
+**Function name**: `public int disp_setDispParams(String params)`
 
 Description : Set screen display parameters
 
@@ -817,7 +825,7 @@ notes
 
 #### 3.1.2, disp_getDispParams
 
-Function name : public int disp_getDispParams()
+**Function name**: `public int disp_getDispParams()`
 
 Description : Get screen display parameters
 
@@ -844,7 +852,7 @@ notes
 
 #### 3.1.3, disp_setDisplayOverScan
 
-Function name : public int disp_setDisplayOverScan(int screen_id, String direction, int value)
+**Function name**: `public int disp_setDisplayOverScan(int screen_id, String direction, int value)`
 
 Description : Set display area (screen zoom) simplify version : Not supported
 
@@ -870,7 +878,7 @@ The primary and secondary screens depend on the system and screen parameter defi
 
 #### 3.1.4, disp_getDisplayOverScan
 
-Function name : public int[] disp_getDisplayOverScan(int screen_id)
+**Function name**: `public int[] disp_getDisplayOverScan(int screen_id)`
 
 Description : Get display area value (screen zoom)
 
@@ -896,7 +904,7 @@ The primary and secondary screens depend on the system and screen parameter defi
 
 #### 3.1.5, disp_getScreenWidth
 
-Function name : public int disp_getScreenWidth(int screen_id)
+**Function name**: `public int disp_getScreenWidth(int screen_id)`
 
 Description : get the specified display screen minute resolution-width
 
@@ -918,7 +926,7 @@ The primary and secondary screens depend on the system and screen parameter defi
 
 #### 3.1.6, disp_getScreenHeight
 
-Function name : public int disp_getScreenHeight(int screen_id)
+**Function name**: `public int disp_getScreenHeight(int screen_id)`
 
 Description : get specified display minute resolution - high
 
@@ -942,7 +950,7 @@ The primary and secondary screens depend on the system and screen parameter defi
 
 #### 3.2.1, disp_setLcdBackLight
 
-Function name : public int disp_setLcdBackLight(int screen_id, int brightness, int frequency, boolean save)
+**Function name**: `public int disp_setLcdBackLight(int screen_id, int brightness, int frequency, boolean save)`
 
 Description : Set screen backlight brightness
 
@@ -973,7 +981,7 @@ After setting the system default interface , it is recommended to use the parame
 
 #### 3.2.2, disp_getLcdBackLight
 
-Function name : public int disp_getLcdBackLight(int screen_id)
+**Function name**: `public int disp_getLcdBackLight(int screen_id)`
 
 Description : Get screen backlight brightness
 
@@ -991,7 +999,7 @@ return parameter Instructions
 
 #### 3.2.3, disp_getLcdPwmFrequency
 
-Function name : public int disp_getLcdPwmFrequency(int screen_id)
+**Function name**: `public int disp_getLcdPwmFrequency(int screen_id)`
 
 Description : get backlight frequency
 
@@ -1017,7 +1025,7 @@ It's generally used to get the frequency of an external PWM , such as the system
 
 #### 3.2.4, disp_getLcdBackLightMaxMin
 
-Function name : public int disp_getLcdBackLightMaxMin(int screen_id, String type)
+**Function name**: `public int disp_getLcdBackLightMaxMin(int screen_id, String type)`
 
 Description : Get screen brightness maximum or minimum value
 
@@ -1036,7 +1044,7 @@ return parameter Instructions
 
 #### 3.2.5, disp_setLcdBackLightEnable
 
-Function name : public int disp_setLcdBackLightEnable(int screen_id, boolean enable)
+**Function name**: `public int disp_setLcdBackLightEnable(int screen_id, boolean enable)`
 
 Description : Set screen backlight switch
 
@@ -1057,7 +1065,7 @@ return parameter Instructions
 
 #### 3.2.6, disp_getLcdBackLightEnable
 
-Function name : public int disp_getLcdBackLightEnable(int screen_id)
+**Function name**: `public int disp_getLcdBackLightEnable(int screen_id)`
 
 Description : get screen backlight switch status
 
@@ -1079,7 +1087,7 @@ return parameter Instructions
 
 #### 3.3.1, disp_setDisplayDensity
 
-Function name : public int disp_setDisplayDensity(int value)
+**Function name**: `public int disp_setDisplayDensity(int value)`
 
 Description : set display density DPI
 
@@ -1103,7 +1111,7 @@ value of the set should be greater than or equal to 72.
 
 #### 3.3.2, disp_getDisplayDensity
 
-Function name : public int disp_getDisplayDensity()
+**Function name**: `public int disp_getDisplayDensity()`
 
 Description : get current display density DPI
 
@@ -1119,7 +1127,7 @@ return parameter Instructions
 
 #### 3.3.3, disp_getScreenShotBitmap
 
-Function name : public Bitmap disp_getScreenShotBitmap()
+**Function name**: `public Bitmap disp_getScreenShotBitmap()`
 
 Description : Screenshot and return a bitmap format image.
 
@@ -1133,7 +1141,7 @@ return parameter Instructions
 
 #### 3.3.4, disp_getScreenShot
 
-Function name : public int disp_getScreenShot(String filepath)
+**Function name**: `public int disp_getScreenShot(String filepath)`
 
 Description : Take a screenshot and save it to a specified path.
 
@@ -1157,7 +1165,7 @@ When an empty string is passed in, a default path will be automatically saved: t
 
 #### 3.3.5, disp_setDisplayRotation
 
-Function name : public int disp_setDisplayRotation(int screen_id, int degree)
+**Function name**: `public int disp_setDisplayRotation(int screen_id, int degree)`
 
 Description : Set screen rotation angle
 
@@ -1182,7 +1190,7 @@ The primary and secondary screens depend on the system and screen parameter defi
 
 #### 3.3.6, disp_getDisplayRotation
 
-Function name : public int disp_getDisplayRotation(int screen_id)
+**Function name**: `public int disp_getDisplayRotation(int screen_id)`
 
 Description : get screen rotation angle
 
@@ -1204,7 +1212,7 @@ The primary and secondary screens depend on the system and screen parameter defi
 
 #### 3.3.7, disp_setBootLogo
 
-Function name : public int disp_setBootLogo(String filepath)
+**Function name**: `public int disp_setBootLogo(String filepath)`
 
 Description : Replaces the power on logo
 
@@ -1234,7 +1242,7 @@ Setting incorrect files can easily lead to system errors.
 
 #### 3.3.8, disp_getBootLogo
 
-Function name : public int disp_getBootLogo()
+**Function name**: `public int disp_getBootLogo()`
 
 Description : get the current power on Logo file path
 
@@ -1250,7 +1258,7 @@ return parameter Instructions
 
 #### 3.3.9, disp_setBootAnimation
 
-Function name : public int disp_setBootAnimation(String filepath)
+**Function name**: `public int disp_setBootAnimation(String filepath)`
 
 Description : Replace the power on animation
 
@@ -1278,7 +1286,7 @@ Setting incorrect files can easily lead to system errors.
 
 #### 3.3.10, disp_getBootAnimation
 
-Function name : public int disp_getBootAnimation()
+**Function name**: `public int disp_getBootAnimation()`
 
 Description : getpower on animation file path
 
@@ -1294,7 +1302,7 @@ return parameter Instructions
 
 #### 3.3.11, disp_setStatusBar
 
-Function name : public int disp_setStatusBar(boolean enable)
+**Function name**: `public int disp_setStatusBar(boolean enable)`
 
 Description : The status column displays the status.
 
@@ -1312,7 +1320,7 @@ return parameter Instructions
 
 #### 3.3.12, disp_getStatusBar
 
-Function name : public int disp_getStatusBar()
+**Function name**: `public int disp_getStatusBar()`
 
 Description : The current status bar displays the status.
 
@@ -1326,7 +1334,7 @@ return parameter Instructions
 
 #### 3.3.13, disp_setNavigationBar
 
-Function name : public int disp_setNavigationBar(boolean enable)
+**Function name**: `public int disp_setNavigationBar(boolean enable)`
 
 Description : Set the navigation bar to display status.
 
@@ -1344,7 +1352,7 @@ return parameter Instructions
 
 #### 3.3.14, disp_getNavigationBar
 
-Function name : public int disp_getNavigationBar()
+**Function name**: `public int disp_getNavigationBar()`
 
 Description : Get the current navigation bar status .
 
@@ -1358,7 +1366,7 @@ return parameter Instructions
 
 #### 3.3.15, disp_setStatusBarDrag
 
-Function name : public int disp_setStatusBarDrag(boolean enable)
+**Function name**: `public int disp_setStatusBarDrag(boolean enable)`
 
 Description : Can the "set status" field be scrolled down?
 
@@ -1376,7 +1384,7 @@ return parameter Instructions
 
 #### 3.3.16, disp_getStatusBarDrag
 
-Function name : public int disp_getStatusBarDrag()
+**Function name**: `public int disp_getStatusBarDrag()`
 
 Description : Can the "get status" field be scrolled down?
 
@@ -1390,7 +1398,7 @@ return parameter Instructions
 
 #### 3.3.17, disp_setGestureBar
 
-Function name : public int disp_setGestureBar(boolean enable)
+**Function name**: `public int disp_setGestureBar(boolean enable)`
 
 Description : Can the set gesture bring up the navigation bar?
 
@@ -1408,7 +1416,7 @@ return parameter Instructions
 
 #### 3.3.18, disp_getGestureBar
 
-Function name : public int disp_getGestureBar()
+**Function name**: `public int disp_getGestureBar()`
 
 Description : Can the GET gesture bring up the navigation bar?
 
@@ -1422,7 +1430,7 @@ return parameter Instructions
 
 #### 3.3.19, disp_setSystemUIMode
 
-Function name : public int disp_setSystemUIMode(boolean enable)
+**Function name**: `public int disp_setSystemUIMode(boolean enable)`
 
 Description : Set SystemUI mode
 
@@ -1446,7 +1454,7 @@ In OS mode, the status bar does not support displaying notification functionalit
 
 #### 3.3.20, disp_getSystemUIMode
 
-Function name : public int disp_getSystemUIMode()
+**Function name**: `public int disp_getSystemUIMode()`
 
 Description : get current SystemUI mode
 
@@ -1460,7 +1468,7 @@ return parameter Instructions
 
 #### 3.3.21, disp_addAppLauncherHideList
 
-Function name : public int disp_addAppLauncherHideList(String packageName)
+**Function name**: `public int disp_addAppLauncherHideList(String packageName)`
 
 Description : Add the applications whose icons need to be hidden.
 
@@ -1484,7 +1492,7 @@ After setting , reboot will take effect.
 
 #### 3.3.22, disp_getAppLauncherHideList
 
-Function name : public List disp_getAppLauncherHideList()
+**Function name**: `public List disp_getAppLauncherHideList()`
 
 Description : The application of getset to hide icons
 
@@ -1500,7 +1508,7 @@ return parameter Instructions
 
 #### 3.3.23, disp_delAppLauncherHideList
 
-Function name : public int disp_delAppLauncherHideList(String packageName)
+**Function name**: `public int disp_delAppLauncherHideList(String packageName)`
 
 Description : Delete apps whose icons need to be hidden.
 
@@ -1526,7 +1534,7 @@ Passing 'clean' will delete all applications set .
 
 #### 3.4.1, disp_getHdmiInStatus
 
-Function name : public int disp_getHdmiInStatus()
+**Function name**: `public int disp_getHdmiInStatus()`
 
 Description : Get hdmi in status value
 
@@ -1546,7 +1554,7 @@ The interface is unusable and not currently supported.
 
 #### 3.4.2, disp_setHdmiInAudio
 
-Function name : public int disp_setHdmiInAudio(boolean enable)
+**Function name**: `public int disp_setHdmiInAudio(boolean enable)`
 
 Description : Set HDMI in the volume switch
 
@@ -1570,7 +1578,7 @@ The interface is unusable and not currently supported.
 
 #### 3.4.3, disp_getHdmiInAudio
 
-Function name : public int disp_getHdmiInAudio
+**Function name**: `public int disp_getHdmiInAudio`
 
 Description : get hdmi in sound switch status
 
@@ -1590,7 +1598,7 @@ The interface is unusable and not currently supported.
 
 #### 3.4.4, disp_setHdmiOutStatus
 
-Function name : public int disp_setHdmiOutStatus(boolean enable)
+**Function name**: `public int disp_setHdmiOutStatus(boolean enable)`
 
 Description : Set hdmi out switch status
 
@@ -1612,7 +1620,7 @@ return parameter Instructions
 
 #### 3.4.5, disp_getHdmiOutStatus
 
-Function name : public int disp_getHdmiOutStatus()
+**Function name**: `public int disp_getHdmiOutStatus()`
 
 Description : Get HDMI out switch status
 
@@ -1634,7 +1642,7 @@ return parameter Instructions
 
 #### 4.1.1, net_getMacAddress
 
-Function name : public String net_getMacAddress(String type)
+**Function name**: `public String net_getMacAddress(String type)`
 
 Description : get the MAC address of the network card device .
 
@@ -1658,7 +1666,7 @@ The obtained Wi-Fi MAC address is the local machine's MAC address.
 
 #### 4.1.2, net_getCurrentNetType
 
-Function name : public String net_getCurrentNetType()
+**Function name**: `public String net_getCurrentNetType()`
 
 Description : get the current network connection type
 
@@ -1676,7 +1684,7 @@ API version V2.12.0+ can use Constant class
 
 #### 4.1.3, net_getNetWorkInf
 
-Function name : public NetworkInfoData net_getNetWorkInf(String type)
+**Function name**: `public NetworkInfoData net_getNetWorkInf(String type)`
 
 Description : get current network information
 
@@ -1705,7 +1713,7 @@ For specific information, please refer to the Network Information object class.
 
 #### 4.1.4, net_getWifiRssi
 
-Function name : public int net_getWifiRssi(int level)
+**Function name**: `public int net_getWifiRssi(int level)`
 
 Description : Get Wi-Fi connection signal
 
@@ -1723,7 +1731,7 @@ return parameter Instructions
 
 #### 4.1.5, net_getImeiNumber
 
-Function name : public String net_getImeiNumber()
+**Function name**: `public String net_getImeiNumber()`
 
 Description : get IMEI number
 
@@ -1739,7 +1747,7 @@ return parameter Instructions
 
 #### 4.1.6, net_getIccidNumber
 
-Function name : public String net_getIccidNumber()
+**Function name**: `public String net_getIccidNumber()`
 
 Description : get ICCID number
 
@@ -1755,7 +1763,7 @@ return parameter Instructions
 
 #### 4.1.7, net_getIccidNumber
 
-Function name : public String net_getImsiNumber()
+**Function name**: `public String net_getImsiNumber()`
 
 Description : get IMSI number
 
@@ -1773,7 +1781,7 @@ return parameter Instructions
 
 #### 4.2.1, net_setNetWork
 
-Function name : public int net_setNetWork(String type, boolean enable)
+**Function name**: `public int net_setNetWork(String type, boolean enable)`
 
 Description : setnetworkswitch status
 
@@ -1796,7 +1804,7 @@ API version V2.12.0+ can use Constant class
 
 #### 4.2.2, net_getNetWork
 
-Function name : public int net_getNetWork(String type)
+**Function name**: `public int net_getNetWork(String type)`
 
 Description : getnetworkswitch status
 
@@ -1818,7 +1826,7 @@ API version V2.12.0+ can use Constant class
 
 #### 4.2.3, net_setNetWorkModel
 
-Function name : public int net_setNetWorkModel(String type, int model, String ip, String gaw, String mask, String dns1, String dns2)
+**Function name**: `public int net_setNetWorkModel(String type, int model, String ip, String gaw, String mask, String dns1, String dns2)`
 
 Description : setnetwork connection mode
 
@@ -1850,7 +1858,7 @@ API version V2.12.0+ can use Constant class
 
 #### 4.2.4, net_getNetWorkModel
 
-Function name : public int net_getNetWorkModel(String type)
+**Function name**: `public int net_getNetWorkModel(String type)`
 
 Description : getnetwork connection mode
 
@@ -1872,7 +1880,7 @@ API version V2.12.0+ can use Constant class
 
 #### 4.2.5, net_setWifiAp
 
-Function name : public int net_setWifiAp(boolean enable)
+**Function name**: `public int net_setWifiAp(boolean enable)`
 
 Description : Set Wi-Fi hotspot switch status
 
@@ -1896,7 +1904,7 @@ WiFi hotspot and WiFi switch are mutually exclusive; opening a hotspot will auto
 
 #### 4.2.6, net_getWifiAp
 
-Function name : public int net_getWifiAp()
+**Function name**: `public int net_getWifiAp()`
 
 Description : get WiFi hotspot switch status
 
@@ -1912,7 +1920,7 @@ return parameter Instructions
 
 #### 4.2.7, net_setWifiConnect
 
-Function name : public int net_setWifiConnect(String account, String pwd, int type, int mode, NetworkInfoData info)
+**Function name**: `public int net_setWifiConnect(String account, String pwd, int type, int mode, NetworkInfoData info)`
 
 Description : Set WiFi connection username and password
 
@@ -1944,7 +1952,7 @@ NetworkInfoData is a network information object class .
 
 #### 4.2.8, net_setNetworkProtect
 
-Function name : public int net_setNetworkProtect(boolean enable, int type, long time, String ip_internet, String ip_intranet, String log_path, boolean reboot)
+**Function name**: `public int net_setNetworkProtect(boolean enable, int type, long time, String ip_internet, String ip_intranet, String log_path, boolean reboot)`
 
 Description : setnetwork guardian switch status
 
@@ -1988,7 +1996,7 @@ Hibernation mode: If a network change is detected, the guardian will resume, re-
 
 #### 4.2.9, net_getNetworkProtectEnable
 
-Function name : public int net_getNetworkProtectEnable()
+**Function name**: `public int net_getNetworkProtectEnable()`
 
 Description : getnetwork guardian switch status
 
@@ -2006,7 +2014,7 @@ return parameter Instructions
 
 #### 4.2.10, net_getNetworkProtectEnable
 
-Function name : public List net_getNetworkProtectConfig()
+**Function name**: `public List net_getNetworkProtectConfig()`
 
 Description : getnetwork daemon configuration information
 
@@ -2029,7 +2037,7 @@ example
 
 #### 4.2.11, net_setNetworkPriority
 
-Function name : public int net_setNetworkPriority(String[] types)
+**Function name**: `public int net_setNetworkPriority(String[] types)`
 
 Description : set network priority
 
@@ -2059,7 +2067,7 @@ After setting , reboot will take effect.
 
 #### 4.2.12, net_getNetworkPriority
 
-Function name : public String[] net_getNetworkPriority()
+**Function name**: `public String[] net_getNetworkPriority()`
 
 Description : getnetwork priority
 
@@ -2081,7 +2089,7 @@ The return value is a string representing the networktype, sorted from highest t
 
 #### 4.2.13, net_setNetworkMultiEnable
 
-Function name : public int net_setNetworkMultiEnable(boolean enable)
+**Function name**: `public int net_setNetworkMultiEnable(boolean enable)`
 
 Description : Set multi-network coexistence switch status
 
@@ -2109,7 +2117,7 @@ After setting , reboot will take effect.
 
 #### 4.2.14, net_getNetworkMultiEnable
 
-Function name : public int net_getNetworkMultiEnable()
+**Function name**: `public int net_getNetworkMultiEnable()`
 
 Description : get multi-network coexistence switch status
 
@@ -2131,7 +2139,7 @@ return parameter Instructions
 
 #### 5.1.1, sys_setBluetooth
 
-Function name : public int sys_setBluetooth(boolean enable)
+**Function name**: `public int sys_setBluetooth(boolean enable)`
 
 Description : Set Bluetooth switch status
 
@@ -2151,7 +2159,7 @@ return parameter Instructions
 
 #### 5.1.2, sys_getBluetooth
 
-Function name : public int sys_getBluetooth()
+**Function name**: `public int sys_getBluetooth()`
 
 Description : get Bluetooth switch status
 
@@ -2167,7 +2175,7 @@ return parameter Instructions
 
 #### 5.1.3, sys_setHwStack
 
-Function name : public int sys_setHwStack(boolean enable)
+**Function name**: `public int sys_setHwStack(boolean enable)`
 
 Description : Set HW overlay switch status
 
@@ -2187,7 +2195,7 @@ return parameter Instructions
 
 #### 5.1.4, sys_getHwStack
 
-Function name : public int sys_getHwStack()
+**Function name**: `public int sys_getHwStack()`
 
 Description : get HW overlay switch status
 
@@ -2203,7 +2211,7 @@ return parameter Instructions
 
 #### 5.1.5, sys_setAirPlane
 
-Function name : public int sys_setAirPlane(boolean enable)
+**Function name**: `public int sys_setAirPlane(boolean enable)`
 
 Description : Set flight mode switch status
 
@@ -2221,7 +2229,7 @@ return parameter Instructions
 
 #### 5.1.6, sys_getAirPlane
 
-Function name : public int sys_getAirPlane()
+**Function name**: `public int sys_getAirPlane()`
 
 Description : get Flight Mode Switch Status
 
@@ -2235,7 +2243,7 @@ return parameter Instructions
 
 #### 5.1.7, sys_setLocation
 
-Function name : public int sys_setLocation(int mode)
+**Function name**: `public int sys_setLocation(int mode)`
 
 Description : set location informationswitch status
 
@@ -2253,7 +2261,7 @@ return parameter Instructions
 
 #### 5.1.8, sys_getLocation
 
-Function name : public int sys_getLocation()
+**Function name**: `public int sys_getLocation()`
 
 Description : get location informationswitch status
 
@@ -2267,7 +2275,7 @@ return parameter Instructions
 
 #### 5.1.9, sys_setSoftKeyboard
 
-Function name : public int sys_setSoftKeyboard(boolean enable)
+**Function name**: `public int sys_setSoftKeyboard(boolean enable)`
 
 Description : Set the soft keyboard to display status.
 
@@ -2285,7 +2293,7 @@ return parameter Instructions
 
 #### 5.1.10, sys_getSoftKeyboard
 
-Function name : public int sys_getSoftKeyboard()
+**Function name**: `public int sys_getSoftKeyboard()`
 
 Description : Get soft keyboard displays status
 
@@ -2299,7 +2307,7 @@ return parameter Instructions
 
 #### 5.1.11, sys_setKeyReport
 
-Function name : public int sys_setKeyReport(boolean enable)
+**Function name**: `public int sys_setKeyReport(boolean enable)`
 
 Description : Can the SET button be reported?
 
@@ -2317,7 +2325,7 @@ return parameter Instructions
 
 #### 5.1.12, sys_getKeyReport
 
-Function name : public int sys_getKeyReport()
+**Function name**: `public int sys_getKeyReport()`
 
 Description : Can the GET button report data?
 
@@ -2331,7 +2339,7 @@ return parameter Instructions
 
 #### 5.1.13, sys_setTouchReport
 
-Function name : public int sys_setTouchReport(boolean enable)
+**Function name**: `public int sys_setTouchReport(boolean enable)`
 
 Description : Set whether to report touch clicks
 
@@ -2349,7 +2357,7 @@ return parameter Instructions
 
 #### 5.1.14, sys_getTouchReport
 
-Function name : public int sys_getTouchReport()
+**Function name**: `public int sys_getTouchReport()`
 
 Description : Can touch clicks be reported?
 
@@ -2363,7 +2371,7 @@ return parameter Instructions
 
 #### 5.1.15, sys_copyFile
 
-Function name : public void sys_copyFile(String oldpath, String newpath, CopyCallback callback)
+**Function name**: `public void sys_copyFile(String oldpath, String newpath, CopyCallback callback)`
 
 Description : Copy file
 
@@ -2388,7 +2396,7 @@ Callback interface : CopyCallback
 
 #### 5.1.16, sys_setDefInputMethod
 
-Function name : public int sys_setDefInputMethod(String default_input_method)
+**Function name**: `public int sys_setDefInputMethod(String default_input_method)`
 
 Description : Set default input method
 
@@ -2410,7 +2418,7 @@ to get the input list first and then set it.
 
 #### 5.1.17, sys_getDefInputMethod
 
-Function name : public String sys_getDefInputMethod()
+**Function name**: `public String sys_getDefInputMethod()`
 
 Description : get current default input method
 
@@ -2424,7 +2432,7 @@ return parameter Instructions
 
 #### 5.1.18, sys_getDefInputMethodList
 
-Function name : public String[] sys_getDefInputMethodList()
+**Function name**: `public String[] sys_getDefInputMethodList()`
 
 Description : get all input methods
 
@@ -2438,7 +2446,7 @@ return parameter Instructions
 
 #### 5.1.19, sys_setSystemFontSize
 
-Function name : public int sys_setSystemFontSize(float size)
+**Function name**: `public int sys_setSystemFontSize(float size)`
 
 Description : setsystem font size
 
@@ -2458,7 +2466,7 @@ return parameter Instructions
 
 #### 5.1.20, sys_getSystemFontSize
 
-Function name : public float sys_getSystemFontSize()
+**Function name**: `public float sys_getSystemFontSize()`
 
 Description : getsystem's current set font size
 
@@ -2476,7 +2484,7 @@ return parameter Instructions
 
 #### 5.2.1, sys_setNtpServer
 
-Function name : public int sys_setNtpServer(String url)
+**Function name**: `public int sys_setNtpServer(String url)`
 
 Description : Set the address of the NTP synchronization time server .
 
@@ -2494,7 +2502,7 @@ return parameter Instructions
 
 #### 5.2.2, sys_getNtpServer
 
-Function name : public String sys_getNtpServer()
+**Function name**: `public String sys_getNtpServer()`
 
 Description : Get the address of the current NTP synchronization time server.
 
@@ -2508,7 +2516,7 @@ return parameter Instructions
 
 #### 5.2.3, sys_setNationallanguage
 
-Function name : public int sys_setNationallanguage(String national, String language)
+**Function name**: `public int sys_setNationallanguage(String national, String language)`
 
 Description : set country and language
 
@@ -2533,7 +2541,7 @@ It is recommended to first iterate through the system language to get the corres
 
 #### 5.2.4, sys_getNationallanguage
 
-Function name : public String sys_getNationallanguage()
+**Function name**: `public String sys_getNationallanguage()`
 
 Description : get the current set of country and language
 
@@ -2551,7 +2559,7 @@ Return value zh_CN: Country CN, Language zh
 
 #### 5.2.5, sys_setTimeZone
 
-Function name : public int sys_setTimeZone(String timeZone)
+**Function name**: `public int sys_setTimeZone(String timeZone)`
 
 Description : Set the current time zone
 
@@ -2569,7 +2577,7 @@ return parameter Instructions
 
 #### 5.2.6, sys_getTimeZone
 
-Function name : public String sys_getTimeZone()
+**Function name**: `public String sys_getTimeZone()`
 
 Description : get current time zone
 
@@ -2583,7 +2591,7 @@ return parameter Instructions
 
 #### 5.2.7, sys_setTimeFormat
 
-Function name : public int sys_setTimeFormat(String format)
+**Function name**: `public int sys_setTimeFormat(String format)`
 
 Description : SetSystem Time (Default Format)
 
@@ -2601,7 +2609,7 @@ return parameter Instructions
 
 #### 5.2.8, sys_getTimeFormat
 
-Function name : public String sys_getTimeFormat()
+**Function name**: `public String sys_getTimeFormat()`
 
 Description : getsystem time (default format)
 
@@ -2615,7 +2623,7 @@ return parameter Instructions
 
 #### 5.2.9, sys_setTime
 
-Function name : public int sys_setTime(long time_millisecond)
+**Function name**: `public int sys_setTime(long time_millisecond)`
 
 Description : Set the current system time
 
@@ -2637,7 +2645,7 @@ Before setting , you need to close system auto to synchronize time.
 
 #### 5.2.10, sys_setNetworkTimeSync
 
-Function name : public int sys_setNetworkTimeSync(boolean enable)
+**Function name**: `public int sys_setNetworkTimeSync(boolean enable)`
 
 Description : Set whether to synchronize network time
 
@@ -2655,7 +2663,7 @@ return parameter Instructions
 
 #### 5.2.11, sys_getNetworkTimeSync
 
-Function name : public int sys_getNetworkTimeSync()
+**Function name**: `public int sys_getNetworkTimeSync()`
 
 Description : get synchronize network time open status
 
@@ -2671,7 +2679,7 @@ return parameter Instructions
 
 #### 5.3.1, sys_setDefaultLauncher
 
-Function name : public int sys_setDefaultLauncher(String packageName)
+**Function name**: `public int sys_setDefaultLauncher(String packageName)`
 
 Description : Set default desktop application
 
@@ -2693,7 +2701,7 @@ name must be included , such as: android.app.smdt.launcher/.Launcher
 
 #### 5.3.2, sys_getDefaultLauncher
 
-Function name : public String sys_getDefaultLauncher()
+**Function name**: `public String sys_getDefaultLauncher()`
 
 Description : get default desktop application
 
@@ -2707,7 +2715,7 @@ return parameter Instructions
 
 #### 5.3.3, sys_setSystemBootApp
 
-Function name : public int sys_setSystemBootApp(String packageName)
+**Function name**: `public int sys_setSystemBootApp(String packageName)`
 
 Description : Set applications that require power on to start automatically.
 
@@ -2731,7 +2739,7 @@ Example: Specify package name android.app.smdt.apidemo; specify class name andro
 
 #### 5.3.4, sys_getSystemBootApp
 
-Function name : public String sys_getSystemBootApp()
+**Function name**: `public String sys_getSystemBootApp()`
 
 Description : Get apps that need to be powered on to start automatically.
 
@@ -2745,7 +2753,7 @@ return parameter Instructions
 
 #### 5.3.5, sys_setDaemonsActivity
 
-Function name : public int sys_setDaemonsActivity(String packageName, long time_millisecond, boolean broadcast_enable)
+**Function name**: `public int sys_setDaemonsActivity(String packageName, long time_millisecond, boolean broadcast_enable)`
 
 Description : set daemon process
 
@@ -2773,7 +2781,7 @@ The global broadcast is "android.app.smdt.PROTECT_CHECK".
 
 #### 5.3.6, sys_getDaemonsActivity
 
-Function name : public String sys_getDaemonsActivity()
+**Function name**: `public String sys_getDaemonsActivity()`
 
 Description : get the name of the application package currently being protected
 
@@ -2787,7 +2795,7 @@ return parameter Instructions
 
 #### 5.3.7, sys_doSilentInstallApp
 
-Function name : public void sys_doSilentInstallApp(String apkPath, InstallCallback callback)
+**Function name**: `public void sys_doSilentInstallApp(String apkPath, InstallCallback callback)`
 
 Description : Silent application installation
 
@@ -2811,7 +2819,7 @@ Callback interface : InstallCallback
 
 #### 5.3.8, sys_doSilentUninstallApp
 
-Function name : public void sys_doSilentUninstallApp(String packageName, DeleteCallback callback)
+**Function name**: `public void sys_doSilentUninstallApp(String packageName, DeleteCallback callback)`
 
 Description : Silently uninstall application
 
@@ -2835,7 +2843,7 @@ Callback interface : DeleteCallback
 
 #### 5.3.9, sys_addBlackWhiteList
 
-Function name : public int sys_addBlackWhiteList(String packageName, int type, int function)
+**Function name**: `public int sys_addBlackWhiteList(String packageName, int type, int function)`
 
 Description : Add application to black and white name list
 
@@ -2869,7 +2877,7 @@ the white and black name tags are empty, the white name tag takes effect, and th
 
 #### 5.3.10, sys_getBlackWhiteList
 
-Function name : public List sys_getBlackWhiteList(int type, int function)
+**Function name**: `public List sys_getBlackWhiteList(int type, int function)`
 
 Description : get black and white name list
 
@@ -2902,7 +2910,7 @@ the white and black name tags are empty, the white name tag takes effect, and th
 
 #### 5.3.11, sys_delBlackWhiteList
 
-Function name : public int sys_delBlackWhiteList(String packageName, int type, int function)
+**Function name**: `public int sys_delBlackWhiteList(String packageName, int type, int function)`
 
 Description : Remove the application from the blacklist/ whitelist .
 
@@ -2930,7 +2938,7 @@ The application package name is passed with special values : "clean" clears all 
 
 #### 5.3.12, sys_backupApplication
 
-Function name : public void sys_backupApplication(String packageName, BackUpCallback callback)
+**Function name**: `public void sys_backupApplication(String packageName, BackUpCallback callback)`
 
 Description : Backup application data
 
@@ -2960,7 +2968,7 @@ It will back up: /data/data/package name /data/user/0/package name /data/user_de
 
 #### 5.3.13, sys_recoveryApplication
 
-Function name : public void sys_recoveryApplication(String packageName, RecoveryCallback callback)
+**Function name**: `public void sys_recoveryApplication(String packageName, RecoveryCallback callback)`
 
 Description : Restore application data
 
@@ -2990,7 +2998,7 @@ It will restore: /data/data/package name /data/user/0/package name /data/user_de
 
 #### 5.3.14, sys_setAutoInstallEnable
 
-Function name : public int sys_setAutoInstallEnable(boolean enable)
+**Function name**: `public int sys_setAutoInstallEnable(boolean enable)`
 
 Description : Set whether to allow auto- installation of applications.
 
@@ -3010,7 +3018,7 @@ return parameter Instructions
 
 #### 5.3.15, sys_getAutoInstallEnable
 
-Function name : public int sys_getAutoInstallEnable(boolean enable)
+**Function name**: `public int sys_getAutoInstallEnable(boolean enable)`
 
 Description : Does `get` allow auto -installation of applications?
 
@@ -3026,7 +3034,7 @@ return parameter Instructions
 
 #### 5.3.16, sys_addAutoInstallAppList
 
-Function name : public int sys_addAutoInstallAppList(String path, String packageName)
+**Function name**: `public int sys_addAutoInstallAppList(String path, String packageName)`
 
 Description : Add auto -install application strategy configuration
 
@@ -3051,11 +3059,13 @@ The installation package path is a relative path, relative to external storage, 
 
 Multiple package name setting strategies are allowed under the same path.
 
+```java
 package name will clear all policies under that path.
+```
 
 #### 5.3.17, sys_getAutoInstallAppList
 
-Function name : public List sys_getAutoInstallAppList()
+**Function name**: `public List sys_getAutoInstallAppList()`
 
 Description : getauto application installation strategy configuration
 
@@ -3080,7 +3090,7 @@ The return list members are composed of path + "," + package name . For example:
 
 #### 5.3.18, sys_delAutoInstallAppList
 
-Function name : public int sys_delAutoInstallAppList(String path, String packageName)
+**Function name**: `public int sys_delAutoInstallAppList(String path, String packageName)`
 
 Description : Remove auto- install application policy configuration
 
@@ -3109,7 +3119,7 @@ the application package name is empty, delete all policy configurations under th
 
 #### 5.4.1 sys_setVolume
 
-Function name : public int sys_setVolume(int value)
+**Function name**: `public int sys_setVolume(int value)`
 
 Description : setsystem media sound volume value
 
@@ -3131,7 +3141,7 @@ First get the maximum and minimum values of volume, then set them .
 
 #### 5.4.2, sys_getVolume
 
-Function name : public int sys_getVolume()
+**Function name**: `public int sys_getVolume()`
 
 Description : getsystem media audio volume value
 
@@ -3145,7 +3155,7 @@ return parameter Instructions
 
 #### 5.4.3, sys_getVolumeMaxMin
 
-Function name : public int sys_getVolumeMaxMin(String type)
+**Function name**: `public int sys_getVolumeMaxMin(String type)`
 
 Description : getsystem media volumemax value and min value
 
@@ -3163,7 +3173,7 @@ return parameter Instructions
 
 #### 5.4.4, sys_setVolumeMute
 
-Function name : public int sys_setVolumeMute(boolean enable)
+**Function name**: `public int sys_setVolumeMute(boolean enable)`
 
 Description : SetSystem Media Sound Mute
 
@@ -3181,7 +3191,7 @@ return parameter Instructions
 
 #### 5.4.5, sys_getVolumeMute
 
-Function name : public int sys_getVolumeMute()
+**Function name**: `public int sys_getVolumeMute()`
 
 Description : Is the media sound muted in getsystem ?
 
@@ -3195,7 +3205,7 @@ return parameter Instructions
 
 #### 5.4.6, sys_setOutVolume
 
-Function name : public int sys_setOutVolume(int type, int value)
+**Function name**: `public int sys_setOutVolume(int type, int value)`
 
 Description : Set the volume gain of deviceoutput
 
@@ -3222,7 +3232,7 @@ Currently, only setting speaker gain is supported.
 
 #### 5.4.7, sys_getOutVolume
 
-Function name : public int sys_getOutVolume(int type)
+**Function name**: `public int sys_getOutVolume(int type)`
 
 Description : get the volume gain of the audio device output .
 
@@ -3248,7 +3258,7 @@ Currently only speaker gain is supported.
 
 #### 5.4.8, sys_setAudioOutput
 
-Function name : public int sys_setAudioOutput(int type)
+**Function name**: `public int sys_setAudioOutput(int type)`
 
 Description : setaudiooutputtype
 
@@ -3274,7 +3284,7 @@ Due to hardware limitations, when selecting speaker-related configurations on th
 
 #### 5.4.9, sys_getAudioOutput
 
-Function name : public int sys_getAudioOutput()
+**Function name**: `public int sys_getAudioOutput()`
 
 Description : getaudiooutputtype
 
@@ -3292,7 +3302,7 @@ return parameter Instructions
 
 #### 5.4.10, sys_setAudioInput
 
-Function name : public int sys_setAudioInput(int type)
+**Function name**: `public int sys_setAudioInput(int type)`
 
 Description : setaudioinputtype
 
@@ -3318,7 +3328,7 @@ This interface is not currently supported.
 
 #### 5.4.11, sys_getAudioInput
 
-Function name : public int sys_getAudioInput()
+**Function name**: `public int sys_getAudioInput()`
 
 Description : getaudioinputtype
 
@@ -3342,7 +3352,7 @@ This interface is not currently supported.
 
 #### 5.5.1, sys_setGpioDirection
 
-Function name : public int sys_setGpioDirection(int io, int direction, int value)
+**Function name**: `public int sys_setGpioDirection(int io, int direction, int value)`
 
 Description : Set GPIO input/output status
 
@@ -3366,7 +3376,7 @@ API version V2.12.0+ can use Constant class
 
 #### 5.5.2, sys_getGpioDirection
 
-Function name : public int sys_getGpioDirection(int io)
+**Function name**: `public int sys_getGpioDirection(int io)`
 
 Description : get GPIO input/output status
 
@@ -3388,7 +3398,7 @@ API version V2.12.0+ can use Constant class
 
 #### 5.5.3, sys_getGpioValue
 
-Function name : public int sys_getGpioValue(int io)
+**Function name**: `public int sys_getGpioValue(int io)`
 
 Description : Get GPIO level status
 
@@ -3410,7 +3420,7 @@ API version V2.12.0+ can use Constant class
 
 #### 5.5.4, sys_setExGpioDirection
 
-Function name : public int sys_setExGpioDirection(int io, int direction, int value)
+**Function name**: `public int sys_setExGpioDirection(int io, int direction, int value)`
 
 Description : set external GPIO input output status
 
@@ -3434,7 +3444,7 @@ API version V2.12.0+ can use Constant class
 
 #### 5.5.5, sys_getExGpioDirection
 
-Function name : public int sys_getExGpioDirection(int io)
+**Function name**: `public int sys_getExGpioDirection(int io)`
 
 Description : get external GPIO input output status
 
@@ -3456,7 +3466,7 @@ API version V2.12.0+ can use Constant class
 
 #### 5.5.6, sys_getExGpioValue
 
-Function name : public int sys_getExGpioValue(int io)
+**Function name**: `public int sys_getExGpioValue(int io)`
 
 Description : Get the external GPIO level status
 
@@ -3478,7 +3488,7 @@ API version V2.12.0+ can use Constant class
 
 #### 5.5.7, sys_setControl
 
-Function name : public int sys_setControl(int type, boolean enable)
+**Function name**: `public int sys_setControl(int type, boolean enable)`
 
 Description : Other I/O related sets (motherboard status LED, module power)
 
@@ -3505,7 +3515,7 @@ Other controls need to be at the system application level.
 
 #### 5.5.8, sys_getControl
 
-Function name : public int sys_getControl(int type)
+**Function name**: `public int sys_getControl(int type)`
 
 Description : Get other I/O related statuses (motherboard status lights, module power).
 
@@ -3533,7 +3543,7 @@ Other controls need to be at the system application level.
 
 #### 5.6.1, sys_setAutoPowerOnOff
 
-Function name : public int sys_setAutoPowerOnOff(boolean enable, int[] week, int onHour, int onMinute, int offHour, int offMinute)
+**Function name**: `public int sys_setAutoPowerOnOff(boolean enable, int[] week, int onHour, int onMinute, int offHour, int offMinute)`
 
 Description : settiming open Shut down
 
@@ -3573,7 +3583,7 @@ timing- on /shut-down error codes
 
 #### 5.6.2, sys_getAutoPowerOnOffEnable
 
-Function name : public int sys_getAutoPowerOnOffEnable(int type)
+**Function name**: `public int sys_getAutoPowerOnOffEnable(int type)`
 
 Description : gettiming start Shut down status
 
@@ -3593,7 +3603,7 @@ version 2.6.0 , the timing- activated Shutdown statusget could be accessed by ca
 
 #### 5.6.3, sys_getAutoPowerOnOff
 
-Function name : public String sys_getAutoPowerOnOff(int type)
+**Function name**: `public String sys_getAutoPowerOnOff(int type)`
 
 Description : gettiming on Shut downset power on / Shut down time
 
@@ -3623,7 +3633,7 @@ Version 2.24.0 and later support the new timingShut downandpower on timeinterfac
 
 #### 5.6.4, sys_getAutoPowerOnOffRepeat
 
-Function name : public int[] sys_getAutoPowerOnOffRepeat()
+**Function name**: `public int[] sys_getAutoPowerOnOffRepeat()`
 
 Description : gettiming enables duplicate status for Shut downset
 
@@ -3647,7 +3657,7 @@ version 2.6.0 , the get statement retrieves the value from the previous set stat
 
 #### 5.6.5, sys_setAutoPowerOnOffTime
 
-Function name : public int sys_setAutoPowerOnOffTime(boolean enable, long onTimeMillis, long offTimeMillis)
+**Function name**: `public int sys_setAutoPowerOnOffTime(boolean enable, long onTimeMillis, long offTimeMillis)`
 
 Description : `settiming` enables Shutdown ( year, month, day, hour, minute ), and supports specifying a specific day's Shutdown time and power on a specific day.
 
@@ -3680,7 +3690,7 @@ You can set only the Shut-down time . Passing 0 to the power on time will set on
 
 #### 5.7.1, sys_setWatchDog
 
-Function name : public int sys_setWatchDog(boolean enable, int poweroff_time)
+**Function name**: `public int sys_setWatchDog(boolean enable, int poweroff_time)`
 
 Description : set watchdog switch status
 
@@ -3703,7 +3713,7 @@ parameter in the interface is not currently supported; the default is 60 seconds
 
 #### 5.7.2, sys_getWatchDog
 
-Function name : public int sys_getWatchDog()
+**Function name**: `public int sys_getWatchDog()`
 
 Description : get Watchdog Switch Status
 
@@ -3717,7 +3727,7 @@ return parameter Instructions
 
 #### 5.7.3, sys_setWatchDogFeed
 
-Function name : public int sys_setWatchDogFeed()
+**Function name**: `public int sys_setWatchDogFeed()`
 
 Description : Opening the door to feed the dog
 
@@ -3731,7 +3741,7 @@ return parameter Instructions
 
 #### 5.7.4, sys_getWatchDogShutDownTime
 
-Function name : public int sys_getWatchDogShutDownTime()
+**Function name**: `public int sys_getWatchDogShutDownTime()`
 
 Description : How long after getting the door dog and not feeding it will the shut down?
 
@@ -3753,7 +3763,7 @@ The interface is unusable and not currently supported.
 
 #### 5.8.1, sys_setPointerLoction
 
-Function name : public int sys_setPointerLoction(boolean enable)
+**Function name**: `public int sys_setPointerLoction(boolean enable)`
 
 Description : Set pointer position switch status
 
@@ -3771,7 +3781,7 @@ return parameter Instructions
 
 #### 5.8.2, sys_getPointerLoction
 
-Function name : public int sys_getPointerLoction()
+**Function name**: `public int sys_getPointerLoction()`
 
 Description : get pointer position switch status
 
@@ -3785,7 +3795,7 @@ return parameter Instructions
 
 #### 5.8.3, sys_setPowerOff
 
-Function name : public int sys_setPowerOff()
+**Function name**: `public int sys_setPowerOff()`
 
 Description : system Shut down
 
@@ -3799,7 +3809,7 @@ return parameter Instructions
 
 #### 5.8.4, sys_setReboot
 
-Function name : public int sys_setReboot()
+**Function name**: `public int sys_setReboot()`
 
 Description : system reboot
 
@@ -3815,7 +3825,7 @@ return parameter Instructions
 
 #### 5.8.5, sys_setRebootByMcu
 
-Function name : public int sys_setReboot()
+**Function name**: `public int sys_setReboot()`
 
 Description : System reboot (MCU reboot )
 
@@ -3831,7 +3841,7 @@ return parameter Instructions
 
 #### 5.8.6, sys_setDeveloperOptions
 
-Function name : public int sys_setDeveloperOptions(boolean enable)
+**Function name**: `public int sys_setDeveloperOptions(boolean enable)`
 
 Description : setDeveloper option switch status
 
@@ -3849,7 +3859,7 @@ return parameter Instructions
 
 #### 5.8.7, sys_getDeveloperOptions
 
-Function name : public int sys_getDeveloperOptions()
+**Function name**: `public int sys_getDeveloperOptions()`
 
 Description : getDeveloper option switch status
 
@@ -3863,7 +3873,7 @@ return parameter Instructions
 
 #### 5.8.8, sys_doUpdatePackage
 
-Function name : public int sys_doUpdatePackage(int type, String filepath)
+**Function name**: `public int sys_doUpdatePackage(int type, String filepath)`
 
 Description : OTA system upgrade
 
@@ -3882,7 +3892,7 @@ return parameter Instructions
 
 #### 5.8.9, sys_doUpdatePackageAB
 
-Function name : public int sys_doUpdatePackageAB(String filepath, UpdateCallback callback)
+**Function name**: `public int sys_doUpdatePackageAB(String filepath, UpdateCallback callback)`
 
 Description : OTA-AB minute zone upgrade, supports online upgrades without entering recovery mode.
 
@@ -3916,7 +3926,7 @@ status in onStatusUpdate callback For error codes related to `onPayloadApplicati
 
 #### 5.8.10, sys_rebootRecovery
 
-Function name : public int sys_rebootRecovery()
+**Function name**: `public int sys_rebootRecovery()`
 
 Description : Factory reset
 
@@ -3932,7 +3942,7 @@ return parameter Instructions
 
 #### 5.8.11, sys_setSystemLog
 
-Function name : public int sys_setSystemLog(boolean enable, int[] type, String dirpath, long fileMaxSize, boolean boot)
+**Function name**: `public int sys_setSystemLog(boolean enable, int[] type, String dirpath, long fileMaxSize, boolean boot)`
 
 Description : Retrieves system logs to a specified path.
 
@@ -3966,7 +3976,7 @@ event logs and crash logs of type `type` can be retrieved separately.
 
 #### 5.8.12, sys_getSystemLog
 
-Function name : public int sys_getSystemLog()
+**Function name**: `public int sys_getSystemLog()`
 
 Description : getsystem logs switch status
 
@@ -3980,7 +3990,7 @@ return parameter Instructions
 
 #### 5.8.13, sys_getProcessLogcat
 
-Function name : public void sys_getProcessLogcat(LogCallback callback)
+**Function name**: `public void sys_getProcessLogcat(LogCallback callback)`
 
 Description : Line-by-line getsystem log
 
@@ -4007,7 +4017,7 @@ the `closeSystem` log switch is turned on or null is passed to the callback, the
 
 #### 5.8.14, sys_getProcessAnrLog
 
-Function name : public int sys_getProcessAnrLog(String filepath)
+**Function name**: `public int sys_getProcessAnrLog(String filepath)`
 
 Description : get ANR logs
 
@@ -4029,7 +4039,7 @@ API version V2.19.0+ The path needs to be a folder path.
 
 #### 5.8.15, sys_setAdbDebug
 
-Function name : public int sys_setAdbDebug(int type, boolean enable)
+**Function name**: `public int sys_setAdbDebug(int type, boolean enable)`
 
 Description : set ADB switch status
 
@@ -4052,7 +4062,7 @@ API version V2.12.0+ can use Constant class
 
 #### 5.8.16, sys_getAdbDebug
 
-Function name : public int sys_getAdbDebug(int type)
+**Function name**: `public int sys_getAdbDebug(int type)`
 
 Description : get ADB switch status
 
@@ -4074,7 +4084,7 @@ API version V2.12.0+ can use Constant class
 
 #### 5.8.17, sys_setOTGMode
 
-Function name : public int sys_setOTGMode(int mode)
+**Function name**: `public int sys_setOTGMode(int mode)`
 
 Description : set OTG mode
 
@@ -4096,7 +4106,7 @@ API version V2.12.0+ can use Constant class
 
 #### 5.8.18, sys_getOTGMode
 
-Function name : public int sys_getOTGMode()
+**Function name**: `public int sys_getOTGMode()`
 
 Description : get current OTG mode
 
@@ -4114,7 +4124,7 @@ API version V2.12.0+ can use Constant class
 
 #### 5.8.19, sys_setFloatBall
 
-Function name : public int sys_setFloatBall(boolean enable)
+**Function name**: `public int sys_setFloatBall(boolean enable)`
 
 Description : setSuspended ball state
 
@@ -4132,7 +4142,7 @@ return parameter Instructions
 
 #### 5.8.20, sys_getFloatBall
 
-Function name : public int sys_getFloatBall()
+**Function name**: `public int sys_getFloatBall()`
 
 Description : getSuspended ball state
 
@@ -4146,7 +4156,7 @@ return parameter Instructions
 
 #### 5.8.21, sys_setUpdateExState
 
-Function name : public int sys_setUpdateExState(boolean enabled)
+**Function name**: `public int sys_setUpdateExState(boolean enabled)`
 
 Description : Sets whether external storage device cloning and system upgrades are allowed.
 
@@ -4168,7 +4178,7 @@ return parameter Instructions
 
 #### 5.8.22, sys_getUpdateExState
 
-Function name : public int sys_getUpdateExState()
+**Function name**: `public int sys_getUpdateExState()`
 
 Description : Does GET allow external storage device cloning or system upgrades?
 
@@ -4186,7 +4196,7 @@ return parameter Instructions
 
 #### 5.8.23, sys_setApiDebugLevel
 
-Function name : public int sys_setApiDebugLevel(int level)
+**Function name**: `public int sys_setApiDebugLevel(int level)`
 
 Description : Set the API logging level
 
@@ -4208,7 +4218,7 @@ null method control in JNI SO library
 
 #### 5.8.24, sys_getApiDebugLevel
 
-Function name : public int sys_getApiDebugLevel()
+**Function name**: `public int sys_getApiDebugLevel()`
 
 Description : Get the current API log level.
 
@@ -4222,7 +4232,7 @@ return parameter Instructions
 
 #### 5.8.25, sys_getErrorDescription
 
-Function name : public String sys_getErrorDescription(int errorCode)
+**Function name**: `public String sys_getErrorDescription(int errorCode)`
 
 Description : GET error code corresponding description
 
@@ -4244,7 +4254,7 @@ return parameter Instructions
 
 #### 6.1.1, dev_getSDcardPath
 
-Function name : public String dev_getSDcardPath()
+**Function name**: `public String dev_getSDcardPath()`
 
 Description : get external storage SD card path
 
@@ -4258,7 +4268,7 @@ return parameter Instructions
 
 #### 6.1.2, dev_getUdiskPath
 
-Function name : public List dev_getUdiskPath()
+**Function name**: `public List dev_getUdiskPath()`
 
 Description : get all USB drive paths on external storage
 
@@ -4272,7 +4282,7 @@ return parameter Instructions
 
 #### 6.1.3, dev_unmountExternalStorage
 
-Function name : public int dev_unmountExternalStorage(String path, boolean force, boolean removeEncryption)
+**Function name**: `public int dev_unmountExternalStorage(String path, boolean force, boolean removeEncryption)`
 
 Description : Unmount external storage
 
@@ -4292,7 +4302,7 @@ return parameter Instructions
 
 #### 6.1.4, dev_getPublicPartitionSize
 
-Function name : public int dev_getPublicPartitionSize(int type, int deviceId)
+**Function name**: `public int dev_getPublicPartitionSize(int type, int deviceId)`
 
 Description : get total size of public and private minutes
 
@@ -4311,7 +4321,7 @@ return parameter Instructions
 
 #### 6.1.5, dev_readPublicPartition
 
-Function name : public byte[] dev_readPublicPartition(int type, int deviceId, int areaId, int start_addr, int size)
+**Function name**: `public byte[] dev_readPublicPartition(int type, int deviceId, int areaId, int start_addr, int size)`
 
 Description : Read public/private minutes area
 
@@ -4333,7 +4343,7 @@ return parameter Instructions
 
 #### 6.1.6, dev_writePublicPartition
 
-Function name : public int dev_writePublicPartition(int type, int deviceId, int areaId, int start_addr, int size, byte[] buf)
+**Function name**: `public int dev_writePublicPartition(int type, int deviceId, int areaId, int start_addr, int size, byte[] buf)`
 
 Description : Write to public/private minute area
 
@@ -4362,7 +4372,7 @@ the minute space size before writing ; if it exceeds the size, write using the n
 
 #### 6.2.1, dev_getUartPath
 
-Function name : public String dev_getUartPath(String uart)
+**Function name**: `public String dev_getUartPath(String uart)`
 
 Description : Get the absolute path of the serial port based on the port number.
 
@@ -4380,7 +4390,7 @@ return parameter Instructions
 
 #### 6.2.2, dev_openUart
 
-Function name : public int dev_openUart(String uartNode, int baudrate, int databits, int stopbits, int parity, int flow_ctrl)
+**Function name**: `public int dev_openUart(String uartNode, int baudrate, int databits, int stopbits, int parity, int flow_ctrl)`
 
 Description : Open serial port
 
@@ -4416,7 +4426,7 @@ example
 
 #### 6.2.3, dev_closeUart
 
-Function name : public int dev_closeUart(String uartNode)
+**Function name**: `public int dev_closeUart(String uartNode)`
 
 Description : close serial port
 
@@ -4442,7 +4452,7 @@ to close the serial port after the operation , otherwise it will remain occupied
 
 #### 6.2.4, dev_sendUart
 
-Function name : public int dev_sendUart(String uartNode, String data, boolean hex)
+**Function name**: `public int dev_sendUart(String uartNode, String data, boolean hex)`
 
 Description : Send serial port data
 
@@ -4470,7 +4480,7 @@ to close the serial port after the operation , otherwise it will remain occupied
 
 #### 6.2.5, dev_receiveUart
 
-Function name : public void dev_receiveUart(String uartNode, DataCallback callback)
+**Function name**: `public void dev_receiveUart(String uartNode, DataCallback callback)`
 
 Description : Receives serial port data
 
@@ -4502,7 +4512,7 @@ to close the serial port after the operation , otherwise it will remain occupied
 
 #### 6.3.1, dev_getCameraConfig
 
-Function name : public int[] dev_getCameraConfig(int cameraId)
+**Function name**: `public int[] dev_getCameraConfig(int cameraId)`
 
 Description : Get camera-related parameters
 
@@ -4534,7 +4544,7 @@ Eighth bit: Recording rotation angle: 0/90/180/270
 
 #### 6.3.2, dev_setCameraDirection
 
-Function name : public int dev_setCameraDirection(int cameraId, int cameraDirection)
+**Function name**: `public int dev_setCameraDirection(int cameraId, int cameraDirection)`
 
 Description : Set the front and rear camera orientation
 
@@ -4557,7 +4567,7 @@ setting , reboot to take effect.
 
 #### 6.3.3, dev_setCameraRotationMode
 
-Function name : public int dev_setCameraRotationMode(int cameraId, int rotationMode, int lockRotation)
+**Function name**: `public int dev_setCameraRotationMode(int cameraId, int rotationMode, int lockRotation)`
 
 Description : Set camera rotation mode
 
@@ -4583,7 +4593,7 @@ setting , reboot to take effect.
 
 #### 6.3.4, dev_setCameraMirror
 
-Function name : public int dev_setCameraMirror(int cameraId, boolean previewMirrorHorizontal, boolean imageMirrorHorizontal, boolean imageMirrorVertical)
+**Function name**: `public int dev_setCameraMirror(int cameraId, boolean previewMirrorHorizontal, boolean imageMirrorHorizontal, boolean imageMirrorVertical)`
 
 Description : Set camera mirror
 
@@ -4610,7 +4620,7 @@ Set and it will take effect immediately.
 
 #### 6.3.5, dev_setCameraImageRotation
 
-Function name : public int dev_setCameraImageRotation(int cameraId, int rotation)
+**Function name**: `public int dev_setCameraImageRotation(int cameraId, int rotation)`
 
 Description : Set camera image rotation
 
@@ -4635,7 +4645,7 @@ Set and it will take effect immediately.
 
 #### 6.3.6, dev_setCameraVideoRotation
 
-Function name : public int dev_setCameraVideoRotation(int cameraId, int rotation)
+**Function name**: `public int dev_setCameraVideoRotation(int cameraId, int rotation)`
 
 Description : Set camera recording rotation
 
@@ -4662,7 +4672,7 @@ Set and it will take effect immediately.
 
 #### 6.4.1, dev_openI2c
 
-Function name : public int dev_openI2c(String i2cNode)
+**Function name**: `public int dev_openI2c(String i2cNode)`
 
 Description : Open I2C peripherals
 
@@ -4684,7 +4694,7 @@ The interface is unusable and not currently supported.
 
 #### 6.4.2, dev_closeI2c
 
-Function name : public int dev_closeI2c(n)
+**Function name**: `public int dev_closeI2c(n)`
 
 Description : Close I2C peripherals
 
@@ -4704,7 +4714,7 @@ The interface is unusable and not currently supported.
 
 #### 6.4.3, dev_writeI2c
 
-Function name : public int dev_writeI2c(int slave, int reg, byte[] data)
+**Function name**: `public int dev_writeI2c(int slave, int reg, byte[] data)`
 
 Description : Writing data from the device register using I2C
 
@@ -4728,7 +4738,7 @@ The interface is unusable and not currently supported.
 
 #### 6.4.4, dev_readI2c
 
-Function name : public byte[] dev_readI2c(int slave, int reg, int len)
+**Function name**: `public byte[] dev_readI2c(int slave, int reg, int len)`
 
 Description : Reading data from device register via I2C
 
@@ -4754,7 +4764,7 @@ The interface is unusable and not currently supported.
 
 #### 6.5.1, dev_openSpi
 
-Function name : public int dev_openSpi(String spiNode)
+**Function name**: `public int dev_openSpi(String spiNode)`
 
 Description : Open SPI peripherals
 
@@ -4776,7 +4786,7 @@ The interface is unusable and not currently supported.
 
 #### 6.5.2, dev_closeSpi
 
-Function name : public int dev_closeSpi()
+**Function name**: `public int dev_closeSpi()`
 
 Description : Close SPI peripherals
 
@@ -4796,7 +4806,7 @@ The interface is unusable and not currently supported.
 
 #### 6.5.3, dev_readSpi
 
-Function name : public byte[] dev_readSpi(int len)
+**Function name**: `public byte[] dev_readSpi(int len)`
 
 Description : Read SPI device data
 
@@ -4818,7 +4828,7 @@ The interface is unusable and not currently supported.
 
 #### 6.5.4, dev_writeSpi
 
-Function name : public int dev_writeSpi(byte[] data)
+**Function name**: `public int dev_writeSpi(byte[] data)`
 
 Description : Writing data to the SPI device
 
@@ -4842,7 +4852,7 @@ The interface is unusable and not currently supported.
 
 #### 6.6.1, dev_openCan
 
-Function name : public int dev_openCan(String canNode, int baudrate)
+**Function name**: `public int dev_openCan(String canNode, int baudrate)`
 
 Description : open can device
 
@@ -4865,7 +4875,7 @@ The interface is unusable and not currently supported.
 
 #### 6.6.2, dev_closeCan
 
-Function name : public int dev_closeCan(String canNode)
+**Function name**: `public int dev_closeCan(String canNode)`
 
 Description : closeopen CAN device
 
@@ -4887,7 +4897,7 @@ The interface is unusable and not currently supported.
 
 #### 6.6.3, dev_receiveCan
 
-Function name : public int dev_receiveCan()
+**Function name**: `public int dev_receiveCan()`
 
 Description : Receives data from CAN device.
 
@@ -4905,7 +4915,7 @@ The interface is unusable and not currently supported.
 
 #### 6.6.4, dev_sendCan
 
-Function name : public int dev_sendCan(long canid, byte[] data)
+**Function name**: `public int dev_sendCan(long canid, byte[] data)`
 
 Description : Write data to CAN device
 
@@ -4930,7 +4940,7 @@ The interface is unusable and not currently supported.
 
 #### 6.7.1, dev_setUsbPower
 
-Function name : public int dev_setUsbPower(int type, int usbId, boolean enable)
+**Function name**: `public int dev_setUsbPower(int type, int usbId, boolean enable)`
 
 Description : Set USB port power switch status
 
@@ -4954,7 +4964,7 @@ The minute power port does not support a switch.
 
 #### 6.7.2, dev_getUsbPower
 
-Function name : public int dev_getUsbPower(int type, int usbId)
+**Function name**: `public int dev_getUsbPower(int type, int usbId)`
 
 Description : Get USB power switch status
 
@@ -4979,7 +4989,7 @@ The minute power port does not support a switch.
 
 #### 6.8.1, dev_setLedLighted
 
-Function name : public int dev_setLedLighted(String ledColor, boolean lighted)
+**Function name**: `public int dev_setLedLighted(String ledColor, boolean lighted)`
 
 Description : set tri-color light status
 
@@ -5004,7 +5014,7 @@ API version V2.12.0+ can use Constant class
 
 #### 6.8.2, dev_getLedState
 
-Function name : public int dev_getLedState(String ledColor)
+**Function name**: `public int dev_getLedState(String ledColor)`
 
 Description : get tri-color light status
 
@@ -5032,7 +5042,7 @@ API version V2.12.0+ can use Constant class
 
 #### 7.1.1, custom_sendWiegandCard
 
-Function name : public int custom_sendWiegandCard(String idCard, int transformat)
+**Function name**: `public int custom_sendWiegandCard(String idCard, int transformat)`
 
 Description : Wiegand card number
 
@@ -5051,7 +5061,7 @@ return parameter Instructions
 
 #### 7.1.2, custom_sendWiegandCardHIDPID
 
-Function name : public int custom_sendWiegandCardHIDPID(String HID_value, String PID_value, int transformat)
+**Function name**: `public int custom_sendWiegandCardHIDPID(String HID_value, String PID_value, int transformat)`
 
 Description : Wiegand sends card number using hidden code and public code.
 
@@ -5071,9 +5081,9 @@ return parameter Instructions
 
 #### 7.1.3, custom_readWiegandData
 
-Function name : public void custom_readWiegandData(WiegandCallback callback)
+**Function name**: `public void custom_readWiegandData(WiegandCallback callback)`
 
-Description : readWiegandinput​​
+Description : readWiegandinput
 
 parameter :
 
@@ -5094,7 +5104,7 @@ Callback interface : WiegandCallback
 
 #### 7.1.4, custom_releaseWiegandRead
 
-Function name : public int custom_releaseWiegandRead()
+**Function name**: `public int custom_releaseWiegandRead()`
 
 Description : Exit Wiegand input blocking
 
@@ -5110,7 +5120,7 @@ return parameter Instructions
 
 #### 7.2.1, custom_setRelayIoMode
 
-Function name : public int custom_setRelayIoMode(int mode, int delay)
+**Function name**: `public int custom_setRelayIoMode(int mode, int delay)`
 
 Description : Set relay mode and delay
 
@@ -5133,7 +5143,7 @@ the setauto closed mode is seconds, with a maximum of 63 seconds.
 
 #### 7.2.2, custom_getRelayIoMode
 
-Function name : public int custom_getRelayIoMode
+**Function name**: `public int custom_getRelayIoMode`
 
 Description : getrelay current mode
 
@@ -5147,7 +5157,7 @@ return parameter Instructions
 
 #### 7.2.3, custom_setRelayIoEnable
 
-Function name : public int custom_setRelayIoEnable(boolean enable)
+**Function name**: `public int custom_setRelayIoEnable(boolean enable)`
 
 Description : set relayswitch status
 
@@ -5165,7 +5175,7 @@ return parameter Instructions
 
 #### 7.2.4, custom_getRelayIoEnable
 
-Function name : public int custom_getRelayIoEnable()
+**Function name**: `public int custom_getRelayIoEnable()`
 
 Description : getrelayswitch status
 
@@ -5181,7 +5191,7 @@ return parameter Instructions
 
 #### 7.3.1, custom_dial
 
-Function name : public int custom_dial(String number)
+**Function name**: `public int custom_dial(String number)`
 
 Description : Custom null interface dialing
 
@@ -5201,7 +5211,7 @@ return parameter Instructions
 
 #### 7.3.2, custom_endCall
 
-Function name : public int custom_endCall()
+**Function name**: `public int custom_endCall()`
 
 Description : Custom null interface for hanging up phone calls
 
@@ -5217,7 +5227,7 @@ return parameter Instructions
 
 #### 7.3.3, custom_addAppliesEncryption
 
-Function name : public int custom_addAppliesEncryption(String packageName, String oldpwd, String pwd)
+**Function name**: `public int custom_addAppliesEncryption(String packageName, String oldpwd, String pwd)`
 
 Description : Add applications that need encryption.
 
@@ -5243,7 +5253,7 @@ adding and changing passwords call this interface . Changing the password requir
 
 #### 7.3.4, custom_getAppliesEncryption
 
-Function name : public List custom_getAppliesEncryption(String packageName)
+**Function name**: `public List custom_getAppliesEncryption(String packageName)`
 
 Description : Get encrypted application and its password
 
@@ -5267,7 +5277,7 @@ If the name parameter is empty, it returns all encrypted applications and their 
 
 #### 7.3.5, custom_delAppliesEncryption
 
-Function name : public int custom_delAppliesEncryption(String packageName, String pwd)
+**Function name**: `public int custom_delAppliesEncryption(String packageName, String pwd)`
 
 Description : Remove application from encrypted list
 
@@ -5278,7 +5288,7 @@ parameter :
 | parameter name | type | Instructions |
 | :--- | :--- | :--- |
 | packageName | String | application package name |
-| pwd | String | Password set​ |
+| pwd | String | Password set |
 
 return parameter Instructions
 
@@ -5290,7 +5300,7 @@ return parameter Instructions
 
 #### 7.4.1, custom_cleanRecentTasks
 
-Function name : public int custom_cleanRecentTasks()
+**Function name**: `public int custom_cleanRecentTasks()`
 
 Description : Clear recently run tasks from the system.
 
@@ -5306,7 +5316,7 @@ return parameter Instructions
 
 #### 7.4.2, custom_killPidProcess
 
-Function name : public int custom_killPidProcess(int pid)
+**Function name**: `public int custom_killPidProcess(int pid)`
 
 Description : Terminate the process based on the PID.
 
@@ -5330,7 +5340,7 @@ It will kill the process directly, use with caution.
 
 #### 7.4.3, custom_getPidProcess
 
-Function name : public int custom_getPidProcess(String packageName)
+**Function name**: `public int custom_getPidProcess(String packageName)`
 
 Description : Get PID based on package name
 
@@ -5350,7 +5360,7 @@ return parameter Instructions
 
 #### 7.4.4, custom_getPidProcessInfo
 
-Function name : public String custom_getPidProcessInfo(int pid)
+**Function name**: `public String custom_getPidProcessInfo(int pid)`
 
 Description : Get the package name corresponding to the process pid.
 
@@ -5370,7 +5380,7 @@ return parameter Instructions
 
 #### 7.4.5, custom_setDesktopApp
 
-Function name : public int custom_setDesktopApp(String packageName)
+**Function name**: `public int custom_setDesktopApp(String packageName)`
 
 Description : Set custom desktop shortcut icons
 
@@ -5400,7 +5410,7 @@ Passing an empty string clears the currently bound status , restoring it to its 
 
 #### 7.4.6, custom_getDesktopApp
 
-Function name : public String custom_getDesktopApp()
+**Function name**: `public String custom_getDesktopApp()`
 
 Description : Get custom desktop shortcut icons
 
@@ -5426,7 +5436,9 @@ API version Version 2.12.0 and above can use this class.
 
 #### Network type of the connection :
 
+```java
 Ethernet public static final CONNECT_TYPE_ETHERNET = "ETH"; WIFI public static final CONNECT_TYPE_WIFI = "WIFI"; mobile network public static final CONNECT_TYPE_MOBILE = "MOBILE";
+```
 
 #### networktype
 
@@ -5440,7 +5452,7 @@ Dynamic: `public static final int MODE_DHCP = 0;` Static: `public static final i
 
 null password public static final int SECURITY_NONE = 0; WEP public static final int SECURITY_WEP = 1; WPA public static final int SECURITY_WPA = 2;
 
-#### Application name​
+#### Application name
 
 ` BLACK_LIST = 0;` ` WHITE_LIST = 1 ;` `UNINSTALL_LIST = 0;` ` INSTALL_LIST = 1 ;` `UNINSTALL_LIST = 0;` ` INSTALL_LIST = 1 ; `
 
@@ -5482,7 +5494,7 @@ WIFI Power: `public static final int WIFI_POWER = 3; ` WIFI Reset: `public stati
 
 #### get IP address
 
-Function name : public String getIp()
+**Function name**: `public String getIp()`
 
 Description : get the current network 's IP address
 
@@ -5494,7 +5506,7 @@ return parameter Instructions
 
 #### get gateway
 
-Function name : public String getGateway()
+**Function name**: `public String getGateway()`
 
 Description : get the gateway of the current network .
 
@@ -5506,7 +5518,7 @@ return parameter Instructions
 
 #### get subnet mask
 
-Function name : public String getNetmask()
+**Function name**: `public String getNetmask()`
 
 Description : get the subnet mask of the current network .
 
@@ -5518,7 +5530,7 @@ return parameter Instructions
 
 #### get DNS1
 
-Function name : public String getDns1()
+**Function name**: `public String getDns1()`
 
 Description : get the current network 's DNS1
 
@@ -5530,7 +5542,7 @@ return parameter Instructions
 
 #### get DNS2
 
-Function name : public String getDns2()
+**Function name**: `public String getDns2()`
 
 Description : get the current network 's DNS2
 
@@ -5617,7 +5629,7 @@ This only applies to systems with AB minute zones ; the specific policy depends 
 
 #### Application installation callback
 
-Function name : public void onInstallFinished(String packageName, int returnCode, String msg);
+**Function name**: `public void onInstallFinished(String packageName, int returnCode, String msg);`
 
 Description : Installation complete.
 
@@ -5633,7 +5645,7 @@ parameterInstructions
 
 #### Application uninstallation callback
 
-Function name : public onDeleteFinished(String packageName, int returnCode, String msg);
+**Function name**: `public onDeleteFinished(String packageName, int returnCode, String msg);`
 
 Description : Uninstallation complete.
 
@@ -5649,7 +5661,7 @@ parameterInstructions
 
 #### for copying files and directories
 
-Function name : public void onCopyProgress(int progress);
+**Function name**: `public void onCopyProgress(int progress);`
 
 Description : Copy progress
 
@@ -5659,7 +5671,7 @@ parameterInstructions
 | :--- | :--- | :--- |
 | progress | int | schedule |
 
-Function name : public void onCopyFinished(int returnCode, String msg);
+**Function name**: `public void onCopyFinished(int returnCode, String msg);`
 
 Description : Copy complete
 
@@ -5674,7 +5686,7 @@ parameterInstructions
 
 #### Callback for serial port data read
 
-Function name : public void onDataReceive(byte[] buffer, int size);
+**Function name**: `public void onDataReceive(byte[] buffer, int size);`
 
 Description : Serial port data reception
 
@@ -5689,7 +5701,7 @@ parameterInstructions
 
 #### Wiegand read data callback
 
-Function name : public void onReadData(String data);
+**Function name**: `public void onReadData(String data);`
 
 Description : read data
 
@@ -5703,7 +5715,7 @@ parameterInstructions
 
 #### Callback to back up application data
 
-Function name : public void onBackUpProgress(int progress);
+**Function name**: `public void onBackUpProgress(int progress);`
 
 Description : Backup progress
 
@@ -5713,7 +5725,7 @@ parameterInstructions
 | :--- | :--- | :--- |
 | progress | int | schedule |
 
-Function name : public void onBackUpFinished(int returnCode, String msg);
+**Function name**: `public void onBackUpFinished(int returnCode, String msg);`
 
 Description : Backup complete
 
@@ -5724,7 +5736,7 @@ parameterInstructions
 | returnCode | int | Reference error code |
 | msg | String | information |
 
-Function name : public void onBackUpPath(String path);
+**Function name**: `public void onBackUpPath(String path);`
 
 Description : return backup path
 
@@ -5738,7 +5750,7 @@ parameterInstructions
 
 #### Callback to back up application data
 
-Function name : public void onRecoveryProgress(int progress);
+**Function name**: `public void onRecoveryProgress(int progress);`
 
 Description : Recovery progress
 
@@ -5748,7 +5760,7 @@ parameterInstructions
 | :--- | :--- | :--- |
 | progress | int | schedule |
 
-Function name : public void onRecoveryFinished(int returnCode, String msg);
+**Function name**: `public void onRecoveryFinished(int returnCode, String msg);`
 
 Description : Recovery complete
 
@@ -5759,7 +5771,7 @@ parameterInstructions
 | returnCode | int | Reference error code |
 | msg | String | information |
 
-Function name : public void onRecoveryPath(String path);
+**Function name**: `public void onRecoveryPath(String path);`
 
 Description : Return to the path where the backup is located.
 
@@ -5773,7 +5785,7 @@ parameterInstructions
 
 #### for fetching system logs line by line
 
-Function name : public void onSingleLine(String log);
+**Function name**: `public void onSingleLine(String log);`
 
 Description : Callback to each line of the system log
 
@@ -5787,7 +5799,7 @@ parameterInstructions
 
 #### OTA-AB upgrade callback
 
-Function name : public void onStatusUpdate(int status, float percent);
+**Function name**: `public void onStatusUpdate(int status, float percent);`
 
 Description : Callback to upgrade status and progress
 
@@ -5798,7 +5810,7 @@ parameterInstructions
 | status | int | status UpdateStatusConstants class |
 | percent | float | schedule |
 
-Function name : public void onPayloadApplicationComplete(int errCode);
+**Function name**: `public void onPayloadApplicationComplete(int errCode);`
 
 Description : Callback upgrade complete status
 
@@ -5824,12 +5836,12 @@ List of deprecated APIs
 | info_setFactoryCompany | setdevice manufacturer | 2022-09-14 | V2.14.0 | V2.14.0 | Xu Linrui |
 | info_setSoftwareVersion | setdevice software version number | 2022-09-14 | V2.14.0 | V2.14.0 | Xu Linrui |
 | sys_setInVolume | Set device microphone switch status | 2022-10-25 | V2.16.0 | V2.16.0 | Xu Linrui |
-| sys_getInVolume | getdevicemicrophoneswitch status​ | 2022-10-25 | V2.16.0 | V2.16.0 | Xu Linrui |
+| sys_getInVolume | getdevicemicrophoneswitch status | 2022-10-25 | V2.16.0 | V2.16.0 | Xu Linrui |
 | disp_getScreenModel | Get dual-screen display combination | 2022-10-25 | V2.16.0 | V2.16.3 | Xu Linrui |
 
 #### 9.2. net_setWifiDefaultPassword
 
-Function name : public int net_setWifiDefaultPassword(String account, String pwd, int type)
+**Function name**: `public int net_setWifiDefaultPassword(String account, String pwd, int type)`
 
 Description : Set power on default WiFi connection username and password
 
@@ -5857,7 +5869,7 @@ Pass an empty cancelset to the account name .
 
 #### 9.3. net_getWifiDefaultPassword
 
-Function name : public String net_getWifiDefaultPassword()
+**Function name**: `public String net_getWifiDefaultPassword()`
 
 Description : GetPower On - Default WiFi Connection Username and Password
 
@@ -5881,7 +5893,7 @@ Encryption method 0: null Password 1: WEP Password 2: WPA
 
 #### 9.4, info_setSoftwareVersion
 
-Function name : public int info_setSoftwareVersion(String verison)
+**Function name**: `public int info_setSoftwareVersion(String verison)`
 
 Description : setdevice software version number
 
@@ -5905,7 +5917,7 @@ After setting , reboot will take effect.
 
 #### 9.5, info_setModel
 
-Function name : public int info_setModel(String modelname)
+**Function name**: `public int info_setModel(String modelname)`
 
 Description : setdevice model
 
@@ -5929,7 +5941,7 @@ After setting , reboot will take effect.
 
 #### 9.6, info_setFactoryCompany
 
-Function name : public int info_setFactoryCompany(String company)
+**Function name**: `public int info_setFactoryCompany(String company)`
 
 Description : setdevice manufacturer
 
@@ -5953,7 +5965,7 @@ After setting , reboot will take effect.
 
 #### 9.7, sys_setInVolume
 
-Function name : public int sys_setInVolume(int type, boolean enable)
+**Function name**: `public int sys_setInVolume(int type, boolean enable)`
 
 Description : Set device microphone switch status
 
@@ -5978,9 +5990,9 @@ The interface is unusable and not currently supported.
 
 #### 9.8, sys_getInVolume
 
-Function name : public int sys_getInVolume(int type)
+**Function name**: `public int sys_getInVolume(int type)`
 
-Description : getdevicemicrophoneswitch status​
+Description : getdevicemicrophoneswitch status
 
 API version : V2.16.0 and later are obsolete. Recommended replacement method: sys_getAudioInput
 
@@ -6002,7 +6014,7 @@ The interface is unusable and not currently supported.
 
 #### 9.9, disp_getScreenModel
 
-Function name : public int disp_getScreenModel()
+**Function name**: `public int disp_getScreenModel()`
 
 Description : Get dual-screen display combination
 
@@ -6057,7 +6069,7 @@ The following interfaces have the same interface parameter names as Android APIs
 | int | dev_setLedLighted(int led,int value) | set tri-color light status |
 | int | dev_getLedState(int led) | get tri-color light status |
 | int | custom_sendWiegandCardHIDPID(char HID_value, char PID_value, char transformat) | Wiegand sends card number using hidden code and public code. |
-| char* | custom_readWiegandData() | readWiegandinput​​ |
+| char* | custom_readWiegandData() | readWiegandinput |
 | int | custom_releaseWiegandRead() | Exit Wiegand input blocking |
 
 ### 10.2 Version Change Log
@@ -6075,7 +6087,7 @@ Linux OS-API publicly released API version
 
 platform : Linux
 
-Function name : const char * info_getApiVersion();
+**Function name**: `const char * info_getApiVersion();`
 
 Description : get the current API version number
 
@@ -6102,11 +6114,23 @@ example
 
 Copy smdtio.h and libsmdtio.so to the project directory; 2. Add header files, find smdtio.h; 3. Right-click on the project and click Add Library, then add it following these steps; 4. Then, instantiate the object in your code and call the method.
 
+![SK7 Android API Reference (`smdt.jar`) - sk7-image4.png](./images/sk7-image4.png)
+
+![SK7 Android API Reference (`smdt.jar`) - sk7-image5.png](./images/sk7-image5.png)
+
+![SK7 Android API Reference (`smdt.jar`) - sk7-image6.png](./images/sk7-image6.png)
+
+![SK7 Android API Reference (`smdt.jar`) - sk7-image7.png](./images/sk7-image7.png)
+
+![SK7 Android API Reference (`smdt.jar`) - sk7-image8.png](./images/sk7-image8.png)
+
+![SK7 Android API Reference (`smdt.jar`) - sk7-image9.png](./images/sk7-image9.png)
+
 ### 10.1 Differences in Interface
 
 #### 10.1.1, sys_setBluetooth
 
-Function name : char *info_getRtcDateTime();
+**Function name**: `char *info_getRtcDateTime();`
 
 platform : Linux
 
@@ -6130,7 +6154,7 @@ notes
 
 #### 10.1.2, disp_setLcdPwmFrequency
 
-Function name : int disp_setLcdPwmFrequency(int frequency, char ratio);
+**Function name**: `int disp_setLcdPwmFrequency(int frequency, char ratio);`
 
 platform : Linux
 
@@ -6151,7 +6175,7 @@ return parameter Instructions
 
 #### 10.1.3, gpio_export
 
-Function name : int gpio_export(int pin)
+**Function name**: `int gpio_export(int pin)`
 
 platform : Linux
 
@@ -6171,7 +6195,7 @@ return parameter Instructions
 
 #### 10.1.4, gpio_unexport
 
-Function name : int gpio_unexport(int pin)
+**Function name**: `int gpio_unexport(int pin)`
 
 platform : Linux
 
@@ -6191,7 +6215,7 @@ return parameter Instructions
 
 #### 10.1.5, gpio_direction
 
-Function name : int gpio_direction(int pin, int dir)
+**Function name**: `int gpio_direction(int pin, int dir)`
 
 platform : Linux
 
@@ -6212,7 +6236,7 @@ return parameter Instructions
 
 #### 10.1.6, gpio_readdirection
 
-Function name : int gpio_readdirection(int pin)
+**Function name**: `int gpio_readdirection(int pin)`
 
 platform : Linux
 
@@ -6232,7 +6256,7 @@ return parameter Instructions
 
 #### 10.1.7, gpio_write
 
-Function name : int gpio_write(int pin,char *buffer)
+**Function name**: `int gpio_write(int pin,char *buffer)`
 
 platform : Linux
 
@@ -6253,7 +6277,7 @@ return parameter Instructions
 
 #### 10.1.8, gpio_read
 
-Function name : int gpio_read(int pin);
+**Function name**: `int gpio_read(int pin);`
 
 platform : Linux
 
@@ -6273,7 +6297,7 @@ return parameter Instructions
 
 #### 10.1.9, sys_setTimerSwitchOffJson
 
-Function name : int sys_setTimerSwitchOffJson();
+**Function name**: `int sys_setTimerSwitchOffJson();`
 
 platform : Linux
 
@@ -6287,7 +6311,7 @@ return parameter Instructions
 
 #### 10.1.10, sys_setTimerSwitchOnJson
 
-Function name : int sys_setTimerSwitchOnJson();
+**Function name**: `int sys_setTimerSwitchOnJson();`
 
 platform : Linux
 
@@ -6301,7 +6325,7 @@ return parameter Instructions
 
 #### 10.1.11, sys_setUtcPowerOnOff
 
-Function name : int sys_setUtcPowerOnOff(int year, int mon,int offday, int offhour, int offmin, int onday,int onhour, int onmin, int enable);
+**Function name**: `int sys_setUtcPowerOnOff(int year, int mon,int offday, int offhour, int offmin, int onday,int onhour, int onmin, int enable);`
 
 platform : Linux
 
@@ -6329,7 +6353,7 @@ return parameter Instructions
 
 #### 10.1.12, sys_setUtcPowerOnOff
 
-Function name : int sys_setUtcPowerOnOff(time_t timesoff, time_t timeson,int enable);
+**Function name**: `int sys_setUtcPowerOnOff(time_t timesoff, time_t timeson,int enable);`
 
 platform : Linux
 
@@ -6351,7 +6375,7 @@ return parameter Instructions
 
 #### 10.1.13, dev_readEeprom
 
-Function name : char* dev_readEeprom(int deviceId, int areaId, int start_addr, int size)
+**Function name**: `char* dev_readEeprom(int deviceId, int areaId, int start_addr, int size)`
 
 platform : Linux
 
@@ -6374,7 +6398,7 @@ return parameter Instructions
 
 #### 10.1.14, dev_readEeprom_3399
 
-Function name : char* dev_readEeprom_3399(int deviceId, int areaId, int start_addr, int size)
+**Function name**: `char* dev_readEeprom_3399(int deviceId, int areaId, int start_addr, int size)`
 
 platform : Linux
 
@@ -6397,7 +6421,7 @@ return parameter Instructions
 
 #### 10.1.15, dev_writeEeprom
 
-Function name : int dev_writeEeprom(int deviceId, int areaId,int start_addr, int size, char * pData);
+**Function name**: `int dev_writeEeprom(int deviceId, int areaId,int start_addr, int size, char * pData);`
 
 platform : Linux
 
@@ -6421,7 +6445,7 @@ return parameter Instructions
 
 #### 10.1.16, dev_writeEeprom_3399
 
-Function name : int dev_writeEeprom_3399(int deviceId, int areaId,int start_addr, int size, char * pData);
+**Function name**: `int dev_writeEeprom_3399(int deviceId, int areaId,int start_addr, int size, char * pData);`
 
 platform : Linux
 
@@ -6445,7 +6469,7 @@ return parameter Instructions
 
 #### 10.1.17, custom_setRelayIoValue
 
-Function name : int custom_setRelayIoValue(int value)
+**Function name**: `int custom_setRelayIoValue(int value)`
 
 platform : Linux
 
@@ -6465,7 +6489,7 @@ return parameter Instructions
 
 #### 10.1.18, custom_getRelayIoValue
 
-Function name : int custom_getRelayIoValue()
+**Function name**: `int custom_getRelayIoValue()`
 
 platform : Linux
 
@@ -6485,7 +6509,7 @@ return parameter Instructions
 
 #### 10.1.19, dev_startFlag_on
 
-Function name : int dev_startFlag_on()
+**Function name**: `int dev_startFlag_on()`
 
 platform : Linux
 
@@ -6499,7 +6523,7 @@ return parameter Instructions
 
 #### 10.1.20, dev_startFlag_off
 
-Function name : int dev_startFlag_off()
+**Function name**: `int dev_startFlag_off()`
 
 platform : Linux
 
@@ -6513,7 +6537,7 @@ return parameter Instructions
 
 #### 10.1.21, dev_getregval
 
-Function name : unsigned char dev_getregval(unsigned char value)
+**Function name**: `unsigned char dev_getregval(unsigned char value)`
 
 platform : Linux
 
@@ -6523,17 +6547,17 @@ parameter :
 
 | parameter name | type | Instructions |
 | :--- | :--- | :--- |
-| value | unsigned char | get register​ |
+| value | unsigned char | get register |
 
 return parameter Instructions
 
 | parameter name | type | Instructions |
 | :--- | :--- | :--- |
-| return value | unsigned char | register value​ |
+| return value | unsigned char | register value |
 
 #### 10.1.22, dev_setregval
 
-Function name : int dev_setregval(unsigned char reg, unsigned char value)
+**Function name**: `int dev_setregval(unsigned char reg, unsigned char value)`
 
 platform : Linux
 
@@ -6554,11 +6578,11 @@ return parameter Instructions
 
 #### 10.1.23, dev_getMCUstatus
 
-Function name : int dev_getMCUstatus()
+**Function name**: `int dev_getMCUstatus()`
 
 platform : Linux
 
-Description : getmcu status​
+Description : getmcu status
 
 return parameter Instructions
 
@@ -6568,7 +6592,7 @@ return parameter Instructions
 
 #### 10.1.24, info_getArch
 
-Function name : char *info_getArch()
+**Function name**: `char *info_getArch()`
 
 platform : Linux
 
@@ -6582,7 +6606,7 @@ return parameter Instructions
 
 #### 10.1.25, sys_getSystemName
 
-Function name : char * sys_getSystemName();
+**Function name**: `char * sys_getSystemName();`
 
 platform : Linux
 
@@ -6596,7 +6620,7 @@ return parameter Instructions
 
 #### 10.1.26, info_getRtcDateTime
 
-Function name : char * info_getRtcDateTime();
+**Function name**: `char * info_getRtcDateTime();`
 
 platform : Linux
 
